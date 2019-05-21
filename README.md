@@ -22,7 +22,7 @@ They are developed and studied in the article
   author={Ranocha, Hendrik and Sayyari, Mohammed and Dalcin, Lisandro and
           Parsani, Matteo and Ketcheson, David I.},
   year={2019},
-  month={May},
+  month={05},
   note={in preparation}
 }
 ```
@@ -36,7 +36,7 @@ implementations provided here, please cite this repository as
          Methods for Convex Functionals},
   author={Ranocha, Hendrik and Ketcheson, David I.},
   year={2019},
-  month={May},
+  month={05},
   howpublished={\url{https://github.com/ranocha/ConvexRelaxationRungeKutta}},
   doi={10.5281/zenodo.3066518}
 }
