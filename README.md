@@ -14,21 +14,37 @@ methods and requires only a small modification to existing implementations.
 The computational cost at each step is the solution of one additional scalar
 algebraic equation for which a good initial guess is available.
 
-They are developed and studied in the article
+Relaxation Runge-Kutta methods for inner-product norms are developed and
+studied in
 ```
-@article{ranocha2019relaxation,
+@misc{ketcheson2019relaxation,
+  title={Relaxation {R}unge--{K}utta Methods: {C}onservation and Stability for
+         Inner-Product Norms},
+  author={Ketcheson, David I},
+  year={2019},
+  month={05},
+  note={To appear on arXiv}
+}
+```
+Generalizations to general functionals with a particular emphasis on convex ones
+are developed and studied in the following article, which is available on
+[arXiv.org](https://arxiv.org/abs/1905.09129).
+```
+@online{ranocha2019relaxation,
   title={Relaxation {R}unge--{K}utta Methods: Fully-Discrete Explicit
          Entropy-Stable Schemes for the {E}uler and {N}avier--{S}tokes Equations},
   author={Ranocha, Hendrik and Sayyari, Mohammed and Dalcin, Lisandro and
           Parsani, Matteo and Ketcheson, David I.},
   year={2019},
   month={05},
-  note={in preparation}
+  eprint={1905.09129},
+  eprinttype={arxiv},
+  eprintclass={math.NA}
 }
 ```
 Implementations of relaxation Ruge-Kutta methods and numerical experiments
 reported in that article can be found in this repository. If you find these
-schemes useful, please cite the article mentioned above. If you use the
+schemes useful, please cite the articles mentioned above. If you use the
 implementations provided here, please cite this repository as
 ```
 @misc{ranocha2019relaxationRepository,
@@ -41,6 +57,8 @@ implementations provided here, please cite this repository as
   doi={10.5281/zenodo.3066518}
 }
 ```
+Specialised implementations of relaxation Runge-Kutta methods for inner-product
+norms are available at https://github.com/ketch/RRK_rr.
 
 
 ## Disclaimer
