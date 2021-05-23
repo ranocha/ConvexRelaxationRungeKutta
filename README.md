@@ -17,26 +17,40 @@ algebraic equation for which a good initial guess is available.
 Relaxation Runge-Kutta methods for inner-product norms are developed and
 studied in
 ```
-@misc{ketcheson2019relaxation,
-  title={Relaxation {R}unge--{K}utta Methods: {C}onservation and Stability for
-         Inner-Product Norms},
+@article{ketcheson2019relaxation,
+  title={Relaxation {R}unge-{K}utta Methods: {C}onservation and
+         Stability for Inner-Product Norms},
   author={Ketcheson, David I},
+  journal={SIAM Journal on Numerical Analysis},
+  volume={57},
+  number={6},
+  pages={2850--2870},
   year={2019},
-  month={05},
-  note={To appear on arXiv}
+  publisher={Society for Industrial and Applied Mathematics},
+  doi={10.1137/19M1263662},
+  eprint={1905.09847},
+  eprinttype={arxiv},
+  eprintclass={math.NA}
 }
 ```
 Generalizations to general functionals with a particular emphasis on convex ones
 are developed and studied in the following article, which is available on
 [arXiv.org](https://arxiv.org/abs/1905.09129).
 ```
-@online{ranocha2019relaxation,
-  title={Relaxation {R}unge--{K}utta Methods: Fully-Discrete Explicit
-         Entropy-Stable Schemes for the {E}uler and {N}avier--{S}tokes Equations},
+@article{ranocha2020relaxation,
+  title={Relaxation {R}unge-{K}utta Methods: Fully-Discrete Explicit
+         Entropy-Stable Schemes for the Compressible {E}uler and
+         {N}avier-{S}tokes Equations},
   author={Ranocha, Hendrik and Sayyari, Mohammed and Dalcin, Lisandro and
-          Parsani, Matteo and Ketcheson, David I.},
-  year={2019},
-  month={05},
+          Parsani, Matteo and Ketcheson, David I},
+  journal={SIAM Journal on Scientific Computing},
+  volume={42},
+  number={2},
+  pages={A612--A638},
+  year={2020},
+  month={03},
+  publisher={Society for Industrial and Applied Mathematics},
+  doi={10.1137/19M1263480},
   eprint={1905.09129},
   eprinttype={arxiv},
   eprintclass={math.NA}
